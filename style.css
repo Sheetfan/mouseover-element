@@ -1,0 +1,23 @@
+html{
+    cursor: none;
+}
+
+body{
+    background: rgb(77, 196, 255);
+    position: relative;
+}
+
+.cursor{
+    width: 10px;
+    height:10px;
+    top:0px;
+    left: 0px;
+    position: absolute;
+    border-radius: 10px;
+    background: red;
+}
+.follower{
+    width: 5px;
+    height:5px;
+    transition: transform .4s linear;
+}
